@@ -1,0 +1,144 @@
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8a0f3 && [1/2] Building C object CMakeFiles/cmTC_8a0f3.dir/src.c.o
+FAILED: CMakeFiles/cmTC_8a0f3.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_8a0f3.dir/src.c.o   -c src.c
+cc1: error: '-Werror=unguarded-availability-new': no option -Wunguarded-availability-new
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a6be && [1/2] Building CXX object CMakeFiles/cmTC_6a6be.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_6a6be.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_6a6be.dir/src.cxx.o -c src.cxx
+cc1plus: error: '-Werror=unguarded-availability-new': no option -Wunguarded-availability-new
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5ea44 && [1/2] Building C object CMakeFiles/cmTC_5ea44.dir/src.c.o
+FAILED: CMakeFiles/cmTC_5ea44.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wimplicit-fallthrough -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_5ea44.dir/src.c.o   -c src.c
+cc: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_da13d && [1/2] Building CXX object CMakeFiles/cmTC_da13d.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_da13d.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_da13d.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_308cc && [1/2] Building C object CMakeFiles/cmTC_308cc.dir/src.c.o
+FAILED: CMakeFiles/cmTC_308cc.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wimplicit-fallthrough -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_308cc.dir/src.c.o   -c src.c
+cc1: error: command line option '-Wdelete-non-virtual-dtor' is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bbbc8 && [1/2] Building C object CMakeFiles/cmTC_bbbc8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_bbbc8.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wimplicit-fallthrough -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror -Wcomment -o CMakeFiles/cmTC_bbbc8.dir/src.c.o   -c src.c
+src.c:1:1: error: multi-line comment [-Werror=comment]
+    1 | // \
+      | ^
+cc1: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2e1bc && [1/2] Building C object CMakeFiles/cmTC_2e1bc.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2e1bc.dir/src.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_STRING_CONVERSION_FLAG   -Werror -Wstring-conversion -o CMakeFiles/cmTC_2e1bc.dir/src.c.o   -c src.c
+cc: error: unrecognized command line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_70db3 && [1/2] Building CXX object CMakeFiles/cmTC_70db3.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_70db3.dir/src.cxx.o 
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -DCXX_SUPPORTS_STRING_CONVERSION_FLAG   -Werror -Wstring-conversion -o CMakeFiles/cmTC_70db3.dir/src.cxx.o -c src.cxx
+c++: error: unrecognized command line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_417ad && [1/2] Building CXX object CMakeFiles/cmTC_417ad.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_417ad
+FAILED: cmTC_417ad 
+: && /usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-class-memaccess -Wno-redundant-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -fdiagnostics-color -DLINKER_SUPPORTS_COLOR_DIAGNOSTICS  -Wl,--color-diagnostics CMakeFiles/cmTC_417ad.dir/src.cxx.o  -o cmTC_417ad   && :
+/usr/bin/ld: unrecognized option '--color-diagnostics'
+/usr/bin/ld: use the --help option for usage information
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Determining if the os_signpost_interval_begin exist failed with the following output:
+Change Dir: /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_94834 && [1/2] Building C object CMakeFiles/cmTC_94834.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_94834.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -o CMakeFiles/cmTC_94834.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c:2:10: fatal error: os/signpost.h: No such file or directory
+    2 | #include <os/signpost.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/mostaf/tinylang/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <os/signpost.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef os_signpost_interval_begin
+  return ((int*)(&os_signpost_interval_begin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

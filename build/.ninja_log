@@ -1,0 +1,10 @@
+# ninja log v5
+0	349	1684686167253638052	lib/Basic/CMakeFiles/tinylangBasic.dir/Version.cpp.o	7e12247a680ef1ba
+349	362	1684686167277637636	lib/Basic/libtinylangBasic.a	a15faa8fc8fad91f
+0	761	1684686167677630701	tools/src/CMakeFiles/calc.dir/Lexer.cpp.o	91f1af0a57c67d30
+1	900	1684686167817628274	tools/src/CMakeFiles/calc.dir/Sema.cpp.o	222dc31cc790ef84
+1	959	1684686167873627303	tools/src/CMakeFiles/calc.dir/Parser.cpp.o	81c37984adffcd0b
+0	1267	1684686168181621964	tools/src/CMakeFiles/calc.dir/Calc.cpp.o	c94746b99dd6390e
+0	2036	1684686168953608579	tools/src/CMakeFiles/calc.dir/CodeGen.cpp.o	77c2149318ac5438
+2036	2199	1684686169113605805	tools/src/calc	8df8c6567161b1d0
+0	11	0	CMakeFiles/install.util	f3ef5e1610a1f90b

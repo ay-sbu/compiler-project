@@ -1,0 +1,1 @@
+/home/mostaf/tinylang/llvm-12/lib/libtinylangBasic.a
